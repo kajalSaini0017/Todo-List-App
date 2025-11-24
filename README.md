@@ -7,6 +7,7 @@ Add, Edit, Mark as Completed, and Delete tasks with data saved in browser LocalS
 
 ### Live Demo 
 
+todolistrapp.netlify.app
 
 ---
 
