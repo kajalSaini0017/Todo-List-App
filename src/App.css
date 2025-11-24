@@ -1,0 +1,163 @@
+input {
+  width: 100%;
+  height: 30px;
+  border-radius: 15px;
+  border: none;
+  font-size:medium;
+  padding-left: 10px;
+}
+.container-box{
+  width:80vw;
+  display: flex;
+  flex-direction: column;
+  justify-content:center;
+  align-items: center;
+}
+.input-container{
+  width: 90%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color:white;
+  border-radius:30px;
+  padding: 10px;
+}
+.btn{
+  width: 40px;
+  height: 40px;
+  color: green;
+  cursor: pointer;
+  border-radius: 50%;
+  padding-left: 5px;
+}
+.list{
+    width:80%;
+    padding:0px;
+    
+}
+.list-items{
+    display: flex;
+    align-items: center;
+    padding: 6px 10px;
+    width:100%;
+    height: 40px;
+    gap: 10px;
+    background-color: white;
+    color: black;
+    margin: 20px 0px;
+    border-radius: 20px;
+    overflow-y: auto;
+}
+.list-item{
+    width: 100%;
+    list-style: none;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: normal;
+    word-wrap: break-word;
+}
+.icons{
+  border: none;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin:0px 5px;
+  cursor: pointer;
+}
+.icon{
+  color:white;
+}
+.Done-div{
+  width: 22px;
+  height: 20px;
+  border: 1px solid gray;
+  background-color: white;
+  color: white;
+  border-radius: 50%;
+}
+.Done{
+  width: 22px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: white;
+  color: green;
+  border: 2px solid green;
+}
+.Edit{
+  background-color:rgb(49, 46, 46);
+}
+.Delete{
+  background-color: red;
+}
+.active{
+  text-decoration: line-through;
+  opacity: 0.7;
+}
+.date-time{
+  color: white;
+}
+.clear-btn{
+  height: 40px;
+  width: 100px;
+  background-color: red;
+  color: white;
+  border: none;
+  border-radius: 8px;
+}
+.filter{
+  width:10%;
+  height: 30px;
+  margin: 0px 5px;
+}
+.clear-wrapper{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.filterbtn{
+  padding: 10px 15px;
+  border:1px solid rgb(164, 158, 158);
+  border-radius: 10px;
+}
+@media  screen and (max-width:500px) {
+  h2{
+    font-size: 5vw;
+  }
+  h1{
+    font-size: 8vw;
+  }
+  .filterbtn{
+    padding: 3px 6px;
+    width: 5px;
+    border: none;
+    margin-left: 15px;
+    display: block;
+    font-weight: bolder;
+
+  }
+  .filter{
+     display: none;
+  }
+  .btn{
+    width: 30px;
+    height: 30px;
+  }
+  .icons{
+    width: 25px;
+    height: 20px;
+    margin: 0px 2.5px;
+  }
+  .Done{
+    width: 18px;
+    height: 17px;
+  }
+  .Done-div{
+    width: 18px;
+    height: 17px;
+  }
+ 
+  
+}
