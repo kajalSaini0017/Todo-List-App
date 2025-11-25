@@ -5,9 +5,9 @@ Add, Edit, Mark as Completed, and Delete tasks with data saved in browser LocalS
 
 ---
 
-### Live Demo 
+### Todo App Live Link
 
-[Live Preview](https://todolistrapp.netlify.app)
+[https://todolistrapp.netlify.app](https://todolistrapp.netlify.app)
 
 ---
 
